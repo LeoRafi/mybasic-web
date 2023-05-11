@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <head>
+        <title>RAP Web</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div class="wrapper">
+                <div class="logo"><a href=''>RAPi.in</a></div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#pendidikan">Pendidikan</a></li>
+                        <li><a href="#jadwalkuliah">Jadwal Kuliah</a></li>
+                        <li><a href="#aktivitas">Aktivitas</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="" class="tbl-biru">Sign Up</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="wrapper">
+            <section id="pendidikan">
+                <div class="kolom">
+                    <p class="deskripsi">This is My Campus</p>
+                    <h2>I study at UIN Maliki Malang</h2>
+                    <p>Saya kuliah di Fakultas Sains dan Teknologi dan saya mengambil Program Studi Teknik Informatika</p>
+                </div>
+                <img src="https://img.freepik.com/free-vector/happy-students-jumping-with-flat-design_23-2147907626.jpg?w=740" width="600" height="600"/>
+            </section>
+        </div>
+    </body>
+</html>

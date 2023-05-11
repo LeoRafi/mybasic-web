@@ -1,0 +1,241 @@
+*{
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #E5E3C9;
+	font-family: 'Open Sans',sans-serif;
+	background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg);
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+img {
+	border-radius: 50%;
+	padding: 40px;
+}
+
+.wrapper {
+	width: 1100px;
+	margin: auto;
+	position: relative;
+}
+
+.logo a {
+	font-size: 50px;
+	font-weight: 800;
+	float: left;
+	font-family: courier;
+	color: #398AB9;
+}
+
+.menu {
+	float: right;
+}
+
+nav {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	line-height: 80px;
+	position: sticky;
+	top: 0;
+	background: #FFBBBB;
+	z-index: 1;
+	border-bottom: 1px solid #398AB9;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+	transition: 0.6s;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+section {
+	margin: auto;
+	display: inline-flex;
+	margin-bottom: 50px;
+}
+
+.kolom {
+	margin: 50px;
+	margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'comic sans ms';
+	color: #139487;
+}
+
+.tengah .deskripsi {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'comic sans ms';
+	color: #139487;
+}
+
+h2 {
+	font-family: 'comic sans ms';
+	font-weight: 800;
+	font-size: 45px;
+	margin-bottom: 20px;
+	color: #FFD32D;
+	width: 100%;
+	line-height: 50px;
+}
+
+a.tbl-biru {
+	background: #9ADCFF;
+	border-radius: 20px;
+	margin-top: 20px;
+	padding: 15px 20px 15px 20px;
+	color: #ffffff;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+a.tbl-biru:hover {
+	background: #FF7BA9;
+	text-decoration: none;
+}
+
+a.tbl-pink {
+	background: #FF7BA9;
+	border-radius: 20px;
+	margin-top: 20px;
+	padding: 15px 20px 15px 20px;
+	color: #ffffff;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+a.tbl-pink:hover {
+	background: #9ADCFF;
+	text-decoration: none;
+}
+
+p {
+	margin: 10px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+	text-align: center;
+	width: 100%;
+}
+
+.activ-list {
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.kartu-activ {
+	width: 20%;
+	margin: 0 auto;
+}
+
+.kartu-activ img {
+	width: 150px;
+	border-radius: 50%;
+}
+
+.kartu-edu {
+	width: 20%;
+	margin: 0 auto;
+}
+
+.kartu-edu img {
+	width: 150px;
+	border-radius: 0%;
+}
+
+#contact {
+	background: #dedede;
+	padding: 50px 0px 50px 0px;
+}
+
+.footer {
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.footer-section {
+	width: 20%;
+	margin: 0 auto;
+}
+
+h3 {
+	font-family: 'comic sans ms';
+	font-weight: 800;
+	font-size: 30px;
+	margin-bottom: 20px;
+	color: #398AB9;
+	width: 100%;
+	line-height: 50px;
+}
+
+#copyright {
+	text-align: center;
+	width: 100%;
+	padding: 50px 0px 50px 0px;
+	margin-top: 25px;
+}
+
+table {
+	width: 50%;
+	margin: auto;
+	border-collapse: collapse;
+}
+
+td, th {
+	border: 1px solid darkblue;
+	padding: 5px;
+}
+
+th {
+	background: royalblue;
+}
+
+tr:nth-child(odd) {
+	background: lightgray;
+}
+
+tr:hover {
+	background: hotpink;
+}
+
+@media screen and (max-width: 991.98px) {
+	.wrapper {
+		width: 90%;
+	}
+}
